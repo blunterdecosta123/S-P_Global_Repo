@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S&P Global & CRISIL — Unified AI/NLP Financial Risk Platform</title>
+  <meta name="description" content="Unified AI/NLP Risk Engine with Tactical Index Rebalancing and Strategic Wholesale Portfolio Stress Testing">
+  <!-- Google Fonts Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Custom Design System -->
+  <link rel="stylesheet" href="/static/style.css">
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="header-bar">
+    <div class="brand-wrapper">
+      <div class="brand-badge">S&P GLOBAL</div>
+      <div>
+        <h1 class="brand-title">AI / NLP Financial Risk Engine</h1>
+        <p class="brand-subtitle">CRISIL Campus Hackathon 2026 • Real-Time Unstructured Intelligence</p>
+      </div>
+    </div>
+
+    <!-- Tab Buttons -->
+    <nav class="tab-container" role="tablist">
+      <button class="tab-btn active" id="tab-btn-engine" onclick="switchTab('engine')">
+        <span>⚡</span> AI Risk Engine
+      </button>
+      <button class="tab-btn" id="tab-btn-module-a" onclick="switchTab('module-a')">
+        <span>📊</span> Module A: Rebalancer
+      </button>
+      <button class="tab-btn" id="tab-btn-module-b" onclick="switchTab('module-b')">
+        <span>🛡️</span> Module B: Stress Testing
+      </button>
+      <button class="tab-btn" id="tab-btn-arch" onclick="switchTab('arch')">
+        <span>📐</span> Architecture
+      </button>
+    </nav>
+
+    <!-- Header Actions -->
+    <div class="header-status-group">
+      <div class="pulse-pill">
+        <span class="pulse-dot"></span>
+        <span id="system-status-text">PIPELINE ONLINE</span>
+      </div>
+      <div style="display: flex; gap: 0.5rem;">
+        <a href="/api/export/signals/json" class="btn-secondary" download title="Export structured risk signals as JSON">Export JSON</a>
+        <a href="/api/export/signals/csv" class="btn-secondary" download title="Export structured risk signals as CSV">Export CSV</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content">
+
+    <!-- Universal Metric Strip -->
+    <section class="metric-strip">
+      <div class="metric-card">
+        <div class="metric-label">Signals Ingested & Analyzed</div>
+        <div class="metric-value" id="metric-total-signals">16</div>
+        <div class="metric-sub">Multi-source: News + Social Feeds</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Critical Shock Alerts (Impact ≥ 7.0)</div>
+        <div class="metric-value" style="color: var(--accent-red);" id="metric-critical-alerts">4</div>
+        <div class="metric-sub">Automated Stress triggers activated</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Module A: Tactical Alpha</div>
+        <div class="metric-value" style="color: var(--accent-green);" id="metric-tactical-alpha">+0.48%</div>
+        <div class="metric-sub">Dynamic sentiment tilt vs S&P 100</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Module B: Portfolio Stress Loss</div>
+        <div class="metric-value" style="color: var(--accent-gold);" id="metric-stress-loss">-$16.04M</div>
+        <div class="metric-sub">On $525M Wholesale Bank Portfolio</div>
+      </div>
+    </section>
+
+    <!-- TAB 1: AI/NLP RISK ENGINE -->
+    <section id="tab-engine" class="tab-content active">
+      <div class="grid-2col">
+        
+        <!-- Left: Live Ingestion Feed -->
+        <div class="glass-panel">
+          <div class="panel-header">
+            <div>
+              <h2 class="panel-title"><span>📡</span> Multi-Source Ingestion Stream</h2>
+              <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">
+                Real-time parsing of unstructured Financial News & Twitter/X feeds
+              </p>
+            </div>
+            <button class="btn-primary" onclick="simulateNextEvent()" id="btn-stream-event">
+              <span>▶</span> Stream Next Live Event
+            </button>
+          </div>
+
+          <!-- Signal Feed Stream Container -->
+          <div class="signal-feed-list" id="signal-feed-container">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Right: Real-Time Interactive NLP Sandbox -->
+        <div>
+          <div class="glass-panel">
+            <div class="panel-header">
+              <h2 class="panel-title"><span>🧪</span> Live NLP Signal Sandbox</h2>
+              <span class="badge badge-event">Real-Time Inference</span>
+            </div>
+            <p style="font-size: 0.785rem; color: var(--text-muted); margin-bottom: 1rem;">
+              Input custom financial news headlines or social media posts to evaluate sentiment scores, event classification, and market impact scores instantly.
+            </p>
+
+            <form id="sandbox-form" onsubmit="handleAnalyzeSubmit(event)">
+              <div class="form-group">
+                <label class="form-label" for="input-source">Data Source Channel</label>
+                <select class="form-select" id="input-source">
+                  <option value="Financial News (Reuters/Bloomberg)">Financial News (Reuters/Bloomberg)</option>
+                  <option value="Social Media (Twitter/X FinTwit)">Social Media (Twitter/X FinTwit)</option>
+                  <option value="SEC 8-K Regulatory Filing">SEC 8-K Regulatory Filing</option>
+                  <option value="Earnings Call Transcript">Earnings Call Transcript</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="input-headline">Headline / Alert Title (Optional)</label>
+                <input type="text" class="form-input" id="input-headline" placeholder="e.g. Federal Reserve issues emergency liquidity advisory...">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="input-text">Body Text / Post Content</label>
+                <textarea class="form-textarea" id="input-text" rows="4" required placeholder="Type or paste any financial unstructured text here..."></textarea>
+              </div>
+
+              <div style="display: flex; gap: 0.5rem; justify-content: flex-end;">
+                <button type="button" class="btn-secondary" onclick="loadSampleText(1)">Sample: Rate Shock</button>
+                <button type="button" class="btn-secondary" onclick="loadSampleText(2)">Sample: Tech Breakout</button>
+                <button type="submit" class="btn-primary" id="btn-analyze-submit">Analyze Signal</button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Live Parsed Output Card -->
+          <div class="glass-panel" id="sandbox-result-panel" style="display: none;">
+            <div class="panel-header">
+              <h2 class="panel-title"><span>🎯</span> Structured Signal Output</h2>
+              <span id="result-severity-pill" class="badge">Critical</span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1rem;">
+              <div style="background: var(--bg-secondary); padding: 0.75rem; border-radius: var(--radius-sm);">
+                <div style="font-size: 0.7rem; color: var(--text-muted); font-weight: 600;">SENTIMENT SCORE</div>
+                <div id="result-sentiment-score" style="font-size: 1.4rem; font-weight: 800; color: var(--accent-green);">-0.72</div>
+                <div id="result-sentiment-label" style="font-size: 0.75rem; color: var(--text-muted);">Strongly Bearish</div>
+              </div>
+              <div style="background: var(--bg-secondary); padding: 0.75rem; border-radius: var(--radius-sm);">
+                <div style="font-size: 0.7rem; color: var(--text-muted); font-weight: 600;">EVENT CLASSIFICATION</div>
+                <div id="result-event-class" style="font-size: 1.1rem; font-weight: 800; color: var(--accent-blue);">Macroeconomic</div>
+                <div style="font-size: 0.75rem; color: var(--text-muted);">Confidence: 92%</div>
+              </div>
+              <div style="background: var(--bg-secondary); padding: 0.75rem; border-radius: var(--radius-sm);">
+                <div style="font-size: 0.7rem; color: var(--text-muted); font-weight: 600;">IMPACT SEVERITY</div>
+                <div id="result-impact-score" style="font-size: 1.4rem; font-weight: 800; color: var(--accent-gold);">8.5 / 10</div>
+                <div style="font-size: 0.75rem; color: var(--text-muted);">Tier: High</div>
+              </div>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.03); padding: 0.75rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+              <div style="font-size: 0.725rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Engine Transmission Rationale:</div>
+              <p id="result-rationale" style="font-size: 0.825rem; color: var(--text-main); margin-top: 0.35rem; line-height: 1.4;"></p>
+              <div style="margin-top: 0.5rem; display: flex; gap: 0.4rem; flex-wrap: wrap;" id="result-channels"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TAB 2: MODULE A - TACTICAL INDEX REBALANCER -->
+    <section id="tab-module-a" class="tab-content">
+      <div class="grid-2col">
+        
+        <!-- Left: Weights Comparison Chart -->
+        <div class="glass-panel">
+          <div class="panel-header">
+            <div>
+              <h2 class="panel-title"><span>⚖️</span> Dynamic Sentiment-Tilted Allocation vs Benchmark</h2>
+              <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">
+                S&P 100 constituent basket weights automatically adjust based on incoming NLP sentiment
+              </p>
+            </div>
+            <button class="btn-secondary" onclick="fetchRebalancerState()"><span>🔄</span> Refresh</button>
+          </div>
+          <div style="height: 400px; position: relative;">
+            <canvas id="chart-rebalancer-weights"></canvas>
+          </div>
+          <div class="panel-header" style="margin-top: 1rem;">
+            <div>
+              <h3 class="panel-title"><span>🕒</span> Weight Changes Over Time</h3>
+              <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">
+                Historical tactical weights after each incoming risk signal
+              </p>
+            </div>
+          </div>
+          <div style="height: 300px; position: relative;">
+            <canvas id="chart-rebalancer-history"></canvas>
+          </div>
+        </div>
+
+        <!-- Right: Strategy Summary Cards -->
+        <div class="glass-panel">
+          <div class="panel-header">
+            <h2 class="panel-title"><span>📈</span> Tactical Performance & Optimization Stats</h2>
+          </div>
+          
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem;">
+            <div style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+              <div class="metric-label">Cumulative Active Alpha</div>
+              <div style="font-size: 1.5rem; font-weight: 800; color: var(--accent-green);" id="rebal-active-alpha">+0.48%</div>
+              <div class="metric-sub">Strategy return vs static benchmark</div>
+            </div>
+            <div style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+              <div class="metric-label">Strategy Return</div>
+              <div style="font-size: 1.5rem; font-weight: 800; color: var(--accent-blue);" id="rebal-strat-return">+1.82%</div>
+              <div class="metric-sub">Benchmark: <span id="rebal-bench-return">+1.34%</span></div>
+            </div>
+          </div>
+
+          <div style="background: var(--bg-secondary); border-radius: var(--radius-md); padding: 1rem; border: 1px solid var(--border-subtle);">
+            <div style="font-size: 0.775rem; font-weight: 700; color: var(--text-muted); margin-bottom: 0.5rem;">TACTICAL REBALANCING RULES</div>
+            <ul style="font-size: 0.775rem; color: var(--text-muted); list-style-position: inside; line-height: 1.6;">
+              <li><strong>Alpha Tilt Multiplier:</strong> α = 0.40 (sensitivity factor)</li>
+              <li><strong>Formula:</strong> wᵢ = wᵢ,base × (1 + α × Sentimentᵢ) / Σ</li>
+              <li><strong>Box Constraints:</strong> Min weight 1.5%, Max weight 22.0%</li>
+              <li><strong>Exponential Decay:</strong> 65% weight on fresh breaking events, 35% on persistent sentiment</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Constituents Detail Table -->
+      <div class="glass-panel">
+        <div class="panel-header">
+          <h2 class="panel-title"><span>📋</span> S&P 100 Constituent Basket Allocation Table</h2>
+        </div>
+        <div style="overflow-x: auto;">
+          <table class="custom-table" id="table-rebalancer-constituents">
+            <thead>
+              <tr>
+                <th>Ticker</th>
+                <th>Company Name</th>
+                <th>Sector</th>
+                <th>Benchmark Wt (%)</th>
+                <th>Tactical Wt (%)</th>
+                <th>Tilt Delta (%)</th>
+                <th>NLP Sentiment</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Populated via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: MODULE B - STRATEGIC PORTFOLIO STRESS TESTING -->
+    <section id="tab-module-b" class="tab-content">
+      <div class="grid-2col">
+        
+        <!-- Left: Pre vs Post Valuation Waterfall & Capital Gauge -->
+        <div>
+          <div class="glass-panel">
+            <div class="panel-header">
+              <div>
+                <h2 class="panel-title"><span>🛡️</span> Wholesale Banking Portfolio Stress Valuation</h2>
+                <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">
+                  $525M AUM: Corporate Loans, Sovereign & Corporate Bonds, Interest Rate & CDS Derivatives
+                </p>
+              </div>
+              <span id="stress-scenario-badge" class="badge badge-event">Geopolitical Embargo</span>
+            </div>
+
+            <!-- Waterfall Numbers -->
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.25rem;">
+              <div class="stress-waterfall-card">
+                <div class="stress-header-badge">BASELINE VALUATION</div>
+                <div style="font-size: 1.35rem; font-weight: 800;" id="stress-pre-value">$522.4M</div>
+                <div style="font-size: 0.75rem; color: var(--text-muted);">Net of baseline ECL</div>
+              </div>
+              <div class="stress-waterfall-card">
+                <div class="stress-header-badge">POST-STRESS VALUATION</div>
+                <div style="font-size: 1.35rem; font-weight: 800; color: var(--accent-red);" id="stress-post-value">$506.4M</div>
+                <div style="font-size: 0.75rem; color: var(--accent-red);" id="stress-total-loss">-$16.04M (-3.07%)</div>
+              </div>
+              <div class="stress-waterfall-card">
+                <div class="stress-header-badge">VALUE AT RISK (99%)</div>
+                <div style="font-size: 1.35rem; font-weight: 800; color: var(--accent-gold);" id="stress-var-99">$18.9M</div>
+                <div style="font-size: 0.75rem; color: var(--text-muted);">CVaR: <span id="stress-cvar-99">$22.3M</span></div>
+              </div>
+            </div>
+
+            <!-- Basel III CET1 Capital Meter -->
+            <div style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); margin-bottom: 1.25rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-size: 0.75rem; font-weight: 700; color: var(--text-main);">BASEL III CET1 CAPITAL ADEQUACY RATIO</span>
+                <span style="font-size: 0.85rem; font-weight: 800;" id="stress-cet1-val">12.18% (Adequate)</span>
+              </div>
+              <div class="capital-meter-bar">
+                <div class="capital-meter-fill" id="stress-cet1-fill" style="width: 78%; background: var(--accent-green);"></div>
+              </div>
+              <div style="display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--text-muted);">
+                <span>Regulatory Minimum: 10.50%</span>
+                <span>Pre-Stress: 13.40%</span>
+              </div>
+            </div>
+
+            <!-- Asset Class Chart -->
+            <div style="height: 250px; position: relative;">
+              <canvas id="chart-stress-classes"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Scenario Trigger Control & Bespoke Stress Lab -->
+        <div>
+          <!-- Preset Scenarios -->
+          <div class="glass-panel">
+            <div class="panel-header">
+              <h2 class="panel-title"><span>⚡</span> Event Shock Presets</h2>
+              <span class="badge badge-credit">Multi-Factor Shocks</span>
+            </div>
+            <p style="font-size: 0.775rem; color: var(--text-muted); margin-bottom: 1rem;">
+              Select a benchmark crisis scenario or trigger automated stress testing from incoming NLP risk signals.
+            </p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1rem;">
+              <button class="btn-secondary" onclick="runPresetScenario('SCEN_GEOPOLITICAL_CRISIS')">
+                🌍 Geopolitical Embargo
+              </button>
+              <button class="btn-secondary" onclick="runPresetScenario('SCEN_MACRO_RATE_SHOCK')">
+                📈 Hawkish Rate Shock (+150bps)
+              </button>
+              <button class="btn-secondary" onclick="runPresetScenario('SCEN_CREDIT_CONTAGION')">
+                💥 Real Estate / Credit Freeze
+              </button>
+              <button class="btn-secondary" onclick="runPresetScenario('SCEN_TECH_ANTITRUST_DISRUPTION')">
+                ⚖️ Antitrust & Cyber Shock
+              </button>
+            </div>
+          </div>
+
+          <!-- Bespoke Stress Sandbox -->
+          <div class="glass-panel">
+            <div class="panel-header">
+              <h2 class="panel-title"><span>🎛️</span> Custom Stress Parameter Sandbox</h2>
+            </div>
+            
+            <form onsubmit="handleCustomStressSubmit(event)">
+              <div class="form-group">
+                <label class="form-label">Scenario Name</label>
+                <input type="text" class="form-input" id="custom-scen-name" value="Custom Bespoke Macro Stress">
+              </div>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div class="form-group">
+                  <label class="form-label">Equity Shock: <span id="val-equity-shock">-15%</span></label>
+                  <input type="range" min="-40" max="0" value="-15" step="1" class="form-input" id="custom-equity-shock" oninput="document.getElementById('val-equity-shock').innerText = this.value + '%'">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Interest Rate Shock: <span id="val-ir-shock">+120 bps</span></label>
+                  <input type="range" min="-100" max="300" value="120" step="10" class="form-input" id="custom-ir-shock" oninput="document.getElementById('val-ir-shock').innerText = (this.value >= 0 ? '+' : '') + this.value + ' bps'">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Credit Spread Widening: <span id="val-spread-shock">+180 bps</span></label>
+                  <input type="range" min="0" max="500" value="180" step="10" class="form-input" id="custom-spread-shock" oninput="document.getElementById('val-spread-shock').innerText = '+' + this.value + ' bps'">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">PD Default Multiplier: <span id="val-pd-mult">1.6x</span></label>
+                  <input type="range" min="1.0" max="3.0" value="1.6" step="0.1" class="form-input" id="custom-pd-mult" oninput="document.getElementById('val-pd-mult').innerText = this.value + 'x'">
+                </div>
+              </div>
+
+              <div style="display: flex; justify-content: flex-end; margin-top: 0.5rem;">
+                <button type="submit" class="btn-primary">Execute Bespoke Stress Simulation</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Top Vulnerable Wholesale Assets Table -->
+      <div class="glass-panel">
+        <div class="panel-header">
+          <h2 class="panel-title"><span>🚨</span> Top Impacted Wholesale Banking Assets (Post-Stress)</h2>
+        </div>
+        <div style="overflow-x: auto;">
+          <table class="custom-table" id="table-stress-positions">
+            <thead>
+              <tr>
+                <th>Asset ID</th>
+                <th>Asset Name</th>
+                <th>Asset Class</th>
+                <th>Sector</th>
+                <th>Credit Rating</th>
+                <th>Notional ($)</th>
+                <th>Pre-Value ($)</th>
+                <th>Post-Value ($)</th>
+                <th>Stress Loss ($)</th>
+                <th>Loss (%)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Populated via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: ARCHITECTURE & METHODOLOGY -->
+    <section id="tab-arch" class="tab-content">
+      <div class="glass-panel">
+        <div class="panel-header">
+          <h2 class="panel-title"><span>📐</span> End-to-End System Architecture & Data Pipeline</h2>
+          <span class="badge badge-event">Production Design</span>
+        </div>
+
+        <div class="arch-diagram-wrapper">
+          <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+            <img src="/static/architecture_schematic.svg" alt="System Architecture Diagram" style="max-width: 100%; height: auto; border-radius: var(--radius-md); box-shadow: var(--shadow-lg);">
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
+            <div style="background: var(--bg-card); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+              <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--accent-blue); margin-bottom: 0.5rem;">1. Multi-Source Ingestion & NLP</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.5;">
+                Ingests unstructured text from Financial News (Reuters/Bloomberg/GDELT) and Social Media (Twitter/X FinTwit, StockTwits). Extracts entities & tickers, assigns Loughran-McDonald bounded sentiment [-1.0, 1.0], classifies events across 7 taxonomic classes, and computes market impact score (1-10).
+              </p>
+            </div>
+            <div style="background: var(--bg-card); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+              <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--accent-green); margin-bottom: 0.5rem;">2. Module A: Tactical Rebalancing</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.5;">
+                Subscribes to real-time stock sentiment signals. Dynamically adjusts S&P 100 constituent weights via alpha tilt: wᵢ = wᵢ,base × (1 + α × Sᵢ) / Σ. Applies turnover controls, tracking error safeguards, and generates dynamic active alpha outperformance.
+              </p>
+            </div>
+            <div style="background: var(--bg-card); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+              <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.5rem;">3. Module B: Portfolio Stress Testing</h3>
+              <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.5;">
+                Automated threshold trigger upon high-severity events (Impact ≥ 7.0). Simulates shocks on $525M wholesale banking portfolio (loans, bonds, swaps). Computes post-stress valuation, Merton ECL, Modified Duration bond drops, derivative MTM, and Basel III CET1 capital adequacy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Frontend Javascript -->
+  <script src="/static/app.js"></script>
+</body>
+</html>

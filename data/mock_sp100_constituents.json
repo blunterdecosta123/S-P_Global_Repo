@@ -1,0 +1,107 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "sector": "Information Technology",
+    "benchmark_weight": 0.115,
+    "base_price": 224.5
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft Corporation",
+    "sector": "Information Technology",
+    "benchmark_weight": 0.11,
+    "base_price": 428.15
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation",
+    "sector": "Semiconductors",
+    "benchmark_weight": 0.105,
+    "base_price": 128.75
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon.com Inc.",
+    "sector": "Consumer Discretionary",
+    "benchmark_weight": 0.085,
+    "base_price": 186.4
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc.",
+    "sector": "Communication Services",
+    "benchmark_weight": 0.08,
+    "base_price": 164.2
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "sector": "Financials",
+    "benchmark_weight": 0.07,
+    "base_price": 218.9
+  },
+  {
+    "ticker": "BAC",
+    "name": "Bank of America Corp.",
+    "sector": "Financials",
+    "benchmark_weight": 0.055,
+    "base_price": 41.3
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil Corporation",
+    "sector": "Energy",
+    "benchmark_weight": 0.065,
+    "base_price": 116.8
+  },
+  {
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "sector": "Healthcare",
+    "benchmark_weight": 0.055,
+    "base_price": 161.4
+  },
+  {
+    "ticker": "LLY",
+    "name": "Eli Lilly and Company",
+    "sector": "Healthcare",
+    "benchmark_weight": 0.06,
+    "base_price": 892.1
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla, Inc.",
+    "sector": "Consumer Discretionary",
+    "benchmark_weight": 0.05,
+    "base_price": 248.6
+  },
+  {
+    "ticker": "BRK.B",
+    "name": "Berkshire Hathaway",
+    "sector": "Financials",
+    "benchmark_weight": 0.05,
+    "base_price": 448.2
+  },
+  {
+    "ticker": "V",
+    "name": "Visa Inc.",
+    "sector": "Financials",
+    "benchmark_weight": 0.04,
+    "base_price": 279.5
+  },
+  {
+    "ticker": "PG",
+    "name": "Procter & Gamble Co.",
+    "sector": "Consumer Staples",
+    "benchmark_weight": 0.035,
+    "base_price": 172.8
+  },
+  {
+    "ticker": "UNH",
+    "name": "UnitedHealth Group",
+    "sector": "Healthcare",
+    "benchmark_weight": 0.03,
+    "base_price": 585.3
+  }
+]

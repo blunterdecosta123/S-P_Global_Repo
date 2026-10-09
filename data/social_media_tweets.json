@@ -1,0 +1,110 @@
+[
+  {
+    "id": "tweet_101",
+    "timestamp": "2026-10-08T08:45:00Z",
+    "source": "Twitter/X (FinTwit)",
+    "handle": "@MacroAlphaDesk",
+    "text": "BREAKING: 10Y Treasury yield breaching 4.65% after CPI prints hotter than feared. Tech multiples getting crushed here. Rotating cash into defensive value. $MSFT $AAPL $QQQ #YieldShock #Inflation",
+    "target_tickers": [
+      "AAPL",
+      "MSFT"
+    ],
+    "expected_event": "Macroeconomic",
+    "expected_sentiment": -0.76,
+    "expected_impact": 7.9
+  },
+  {
+    "id": "tweet_102",
+    "timestamp": "2026-10-08T09:22:00Z",
+    "source": "StockTwits",
+    "handle": "@SiliconBull88",
+    "text": "$NVDA orders are off the charts! Blackwell B200 server rack delivery timeline accelerated by 2 months. Gross margins locked at 76%. Absolute monster numbers incoming! \ud83d\ude80\ud83d\ude80 #AI #NVIDIA",
+    "target_tickers": [
+      "NVDA"
+    ],
+    "expected_event": "Product Launch",
+    "expected_sentiment": 0.92,
+    "expected_impact": 7.4
+  },
+  {
+    "id": "tweet_103",
+    "timestamp": "2026-10-08T10:14:00Z",
+    "source": "Twitter/X (FinTwit)",
+    "handle": "@OilCommodityTracker",
+    "text": "Brent crude futures trading limit up +$8/bbl. Gulf insurers cancelling vessel underwriting. $XOM and $CVX are massive cash machines in this environment. Free cash flow yields exploding. #EnergyCrisis",
+    "target_tickers": [
+      "XOM"
+    ],
+    "expected_event": "Geopolitical",
+    "expected_sentiment": 0.68,
+    "expected_impact": 8.4
+  },
+  {
+    "id": "tweet_104",
+    "timestamp": "2026-10-08T11:05:00Z",
+    "source": "Twitter/X (FinTwit)",
+    "handle": "@CreditRiskWatchdog",
+    "text": "RED ALERT on Regional & CRE Loan Portfolios: Regional bank credit default swaps widening 45bps today. Severe refinancing cliff looming for $650B debt maturing by Q1. Watch systemic exposure! $BAC $JPM",
+    "target_tickers": [
+      "BAC",
+      "JPM"
+    ],
+    "expected_event": "Credit Event",
+    "expected_sentiment": -0.84,
+    "expected_impact": 8.7
+  },
+  {
+    "id": "tweet_105",
+    "timestamp": "2026-10-08T12:00:00Z",
+    "source": "StockTwits",
+    "handle": "@EV_Disruptor",
+    "text": "$TSLA Full Self-Driving Version 13 approved for commercial robotaxi deployment in California and Texas! Fleet monetization begins next month. Massive competitive moat! \ud83d\udd25",
+    "target_tickers": [
+      "TSLA"
+    ],
+    "expected_event": "Product Launch",
+    "expected_sentiment": 0.85,
+    "expected_impact": 6.9
+  },
+  {
+    "id": "tweet_106",
+    "timestamp": "2026-10-08T13:40:00Z",
+    "source": "Twitter/X (FinTwit)",
+    "handle": "@BiotechVanguard",
+    "text": "$LLY trial results are historic. 28% placebo-adjusted weight loss blows Novo Nordisk out of the water. Wall Street price target upgrades flooding in ($1,050+ PT). Market cap headed to $1T. #Pharma",
+    "target_tickers": [
+      "LLY"
+    ],
+    "expected_event": "Product Launch",
+    "expected_sentiment": 0.89,
+    "expected_impact": 7.2
+  },
+  {
+    "id": "tweet_107",
+    "timestamp": "2026-10-08T14:35:00Z",
+    "source": "StockTwits",
+    "handle": "@SupplyChainInsider",
+    "text": "Unconfirmed rumors of key semiconductor packaging supply constraints impacting Apple iPhone 17 Pro production schedules. Foxconn operating at 65% capacity. Watch margins. $AAPL",
+    "target_tickers": [
+      "AAPL"
+    ],
+    "expected_event": "Earnings / Financial Distress",
+    "expected_sentiment": -0.58,
+    "expected_impact": 6.2
+  },
+  {
+    "id": "tweet_108",
+    "timestamp": "2026-10-08T15:20:00Z",
+    "source": "Twitter/X (FinTwit)",
+    "handle": "@WallStreetQuant",
+    "text": "Mega-cap tech valuation dispersion reaching 98th percentile. Fed hawkish pause forcing quantitative equity funds to de-gross leverage by -$40B this week. Volatility index (VIX) spiking above 24. $SPY",
+    "target_tickers": [
+      "AAPL",
+      "MSFT",
+      "GOOGL"
+    ],
+    "expected_event": "Macroeconomic",
+    "expected_sentiment": -0.71,
+    "expected_impact": 8.0
+  }
+]

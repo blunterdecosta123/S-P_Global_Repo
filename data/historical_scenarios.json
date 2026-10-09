@@ -1,0 +1,58 @@
+[
+  {
+    "id": "SCEN_GEOPOLITICAL_CRISIS",
+    "name": "Geopolitical Escalation & Energy Embargo",
+    "category": "Geopolitical",
+    "description": "Strait of Hormuz blockade leading to severe supply disruptions, oil spike, and supply-chain freeze.",
+    "shocks": {
+      "equity_shock_pct": -16.5,
+      "interest_rate_shock_bps": 95,
+      "credit_spread_widening_bps": 180,
+      "pd_multiplier": 1.75,
+      "lgd_multiplier": 1.25,
+      "energy_sector_boost_pct": 12.0
+    }
+  },
+  {
+    "id": "SCEN_MACRO_RATE_SHOCK",
+    "name": "Aggressive Central Bank Hawkish Tightening",
+    "category": "Macroeconomic",
+    "description": "Persistent inflation triggers unexpected +150 bps rate hikes, yield curve inversion, and multiple compression.",
+    "shocks": {
+      "equity_shock_pct": -14.0,
+      "interest_rate_shock_bps": 150,
+      "credit_spread_widening_bps": 130,
+      "pd_multiplier": 1.5,
+      "lgd_multiplier": 1.15,
+      "energy_sector_boost_pct": -2.0
+    }
+  },
+  {
+    "id": "SCEN_CREDIT_CONTAGION",
+    "name": "Systemic Real Estate & Credit Freeze",
+    "category": "Credit Event",
+    "description": "Cascading defaults in Commercial Real Estate and leveraged loans with banking counterparty distress.",
+    "shocks": {
+      "equity_shock_pct": -22.0,
+      "interest_rate_shock_bps": -40,
+      "credit_spread_widening_bps": 320,
+      "pd_multiplier": 2.4,
+      "lgd_multiplier": 1.35,
+      "energy_sector_boost_pct": -8.0
+    }
+  },
+  {
+    "id": "SCEN_TECH_ANTITRUST_DISRUPTION",
+    "name": "Global Tech Regulatory Crackdown & Cyber Shocks",
+    "category": "Regulatory & Compliance",
+    "description": "Antitrust break-up orders across hyperscalers coupled with major digital infrastructure supply disruption.",
+    "shocks": {
+      "equity_shock_pct": -18.0,
+      "interest_rate_shock_bps": 20,
+      "credit_spread_widening_bps": 90,
+      "pd_multiplier": 1.35,
+      "lgd_multiplier": 1.1,
+      "energy_sector_boost_pct": 0.0
+    }
+  }
+]

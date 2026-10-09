@@ -1,0 +1,1493 @@
+[
+  {
+    "gdelt_id": "20261009090000-0",
+    "date": "20261009090000",
+    "url": "https://www.el-balad.com/17056283",
+    "themes": [
+      "WB_137_WATER",
+      "TAX_FNCACT",
+      "TAX_FNCACT_JUDGE",
+      "TAX_WORLDLANGUAGES",
+      "TAX_WORLDLANGUAGES_KORRA"
+    ],
+    "raw_tone": -0.472813238770686,
+    "sentiment_normalized": -0.05,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-1",
+    "date": "20261009090000",
+    "url": "https://focustaiwan.tw/society/202610090004",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_MAN",
+      "TRIAL",
+      "CRISISLEX_CRISISLEXREC",
+      "DEATH_PENALTY"
+    ],
+    "raw_tone": -8.71794871794872,
+    "sentiment_normalized": -0.87,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-2",
+    "date": "20261009090000",
+    "url": "https://www.aol.co.uk/articles/andrew-mountbatten-windsors-next-move-082100000.html",
+    "themes": [
+      "SECURITY_SERVICES",
+      "TAX_FNCACT",
+      "TAX_FNCACT_POLICE",
+      "CRISISLEX_C07_SAFETY",
+      "TAX_FNCACT_PRINCE"
+    ],
+    "raw_tone": -2.18818380743983,
+    "sentiment_normalized": -0.22,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-3",
+    "date": "20261009090000",
+    "url": "https://www.falmouthpacket.co.uk/news/26621493.itv-gmb-warns-us-hurricane-bring-uk-storms-next-week/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_METEOROLOGIST",
+      "NATURAL_DISASTER",
+      "NATURAL_DISASTER_SEVERE_WEATHER",
+      "UNREST_BELLIGERENT"
+    ],
+    "raw_tone": -4.98812351543943,
+    "sentiment_normalized": -0.5,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-4",
+    "date": "20261009090000",
+    "url": "https://www.el-balad.com/17056285",
+    "themes": [
+      "KILL",
+      "CRISISLEX_T03_DEAD",
+      "GENERAL_HEALTH",
+      "MEDICAL",
+      "CRISISLEX_C03_WELLBEING_HEALTH"
+    ],
+    "raw_tone": -5.42372881355932,
+    "sentiment_normalized": -0.54,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-5",
+    "date": "20261009090000",
+    "url": "https://hoteldesigns.net/2026/alpine-honey-and-a-hydrothermal-bathhouse-inside-rimrock-banff-emblems-collection/",
+    "themes": [
+      "WB_566_ENVIRONMENT_AND_NATURAL_RESOURCES",
+      "WB_3007_NATIONAL_PARKS",
+      "WB_1833_PROTECTED_AREAS_SYSTEMS",
+      "WB_1829_ECOSYSTEM_MANAGEMENT",
+      "TAX_ETHNICITY"
+    ],
+    "raw_tone": 6.41282565130261,
+    "sentiment_normalized": 0.64,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-6",
+    "date": "20261009090000",
+    "url": "https://www.aol.co.uk/articles/tory-led-westminster-accused-dithering-082733000.html",
+    "themes": [
+      "DELAY",
+      "USPEC_UNCERTAINTY1",
+      "CRISISLEX_C04_LOGISTICS_TRANSPORT",
+      "TAX_FNCACT",
+      "TAX_FNCACT_SPOKESPERSON"
+    ],
+    "raw_tone": -0.25062656641604,
+    "sentiment_normalized": -0.03,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-9",
+    "date": "20261009090000",
+    "url": "https://www.fox5vegas.com/2026/10/09/court-order-barring-short-term-rental-crackdowns-must-be-narrowed-appeals-court-says/",
+    "themes": [
+      "CRISISLEX_CRISISLEXREC",
+      "TAX_FNCACT",
+      "TAX_FNCACT_JUDGE",
+      "USPEC_POLICY1",
+      "CONSTITUTIONAL"
+    ],
+    "raw_tone": -7.23684210526316,
+    "sentiment_normalized": -0.72,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-10",
+    "date": "20261009090000",
+    "url": "https://www.krbe.com/2026/10/09/olivia-rodrigo-owns-a-piece-of-rock-history-thanks-to-a-25000-auction-buy/",
+    "themes": [
+      "MILITARY",
+      "CRISISLEX_O01_WEATHER",
+      ""
+    ],
+    "raw_tone": 2.80898876404494,
+    "sentiment_normalized": 0.28,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-11",
+    "date": "20261009090000",
+    "url": "https://focustaiwan.tw:443/culture/202610090005",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_PRODUCER",
+      "TAX_FNCACT_ACTOR",
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_ASIAN"
+    ],
+    "raw_tone": 7.23981900452489,
+    "sentiment_normalized": 0.72,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-12",
+    "date": "20261009090000",
+    "url": "https://www.ibtimes.co.uk/maduro-flores-charged-conspiracy-commit-torture-1824645",
+    "themes": [
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_VENEZUELAN",
+      "LEADER",
+      "TAX_FNCACT",
+      "TAX_FNCACT_PRESIDENT"
+    ],
+    "raw_tone": -15.5555555555556,
+    "sentiment_normalized": -1.0,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-13",
+    "date": "20261009090000",
+    "url": "https://www.southernstar.ie/life/know-your-rights-claiming-the-fuel-allowance-for-the-winter-4377069",
+    "themes": [
+      "TAX_ECON_PRICE",
+      "FUELPRICES",
+      "TAX_FNCACT",
+      "TAX_FNCACT_CITIZENS",
+      ""
+    ],
+    "raw_tone": 3.24675324675325,
+    "sentiment_normalized": 0.32,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-14",
+    "date": "20261009090000",
+    "url": "https://www.ibtimes.co.uk/royal-navy-sailor-national-security-act-charges-1824627",
+    "themes": [
+      "MILITARY",
+      "TAX_FNCACT",
+      "TAX_FNCACT_NAVY",
+      "TAX_FNCACT_SAILOR",
+      "TAX_FNCACT_MAGISTRATE"
+    ],
+    "raw_tone": -4.27509293680297,
+    "sentiment_normalized": -0.43,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-15",
+    "date": "20261009090000",
+    "url": "https://www.thehindu.com/business/companies/bookpeek-a-different-life-with-less-oil-around/article59890484.ece",
+    "themes": [
+      "ENV_OIL",
+      "AGRICULTURE",
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_THAI",
+      "TAX_ETHNICITY_JAPANESE"
+    ],
+    "raw_tone": -0.362976406533575,
+    "sentiment_normalized": -0.04,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-16",
+    "date": "20261009090000",
+    "url": "https://harringayonline.com/forum/topics/is-your-dusty-sourdough-worth-a-1-3-million-knuckle?commentId=844301%3AComment%3A1673711",
+    "themes": [
+      "MANMADE_DISASTER_IMPLIED",
+      "TAX_FNCACT",
+      "TAX_FNCACT_DEVELOPER",
+      "TAX_WORLDMAMMALS",
+      "TAX_WORLDMAMMALS_BEARS"
+    ],
+    "raw_tone": -0.883002207505519,
+    "sentiment_normalized": -0.09,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-17",
+    "date": "20261009090000",
+    "url": "https://indiaeducationdiary.in/commerce-secretary-shri-rajesh-agrawal-highlights-need-for-rigorous-legal-thinking-at-ctils-9th-anniversary-celebration/",
+    "themes": [
+      "EPU_ECONOMY_HISTORIC",
+      "TAX_FNCACT",
+      "TAX_FNCACT_SECRETARY",
+      "WB_698_TRADE",
+      "LEGISLATION"
+    ],
+    "raw_tone": 3.10880829015544,
+    "sentiment_normalized": 0.31,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-18",
+    "date": "20261009090000",
+    "url": "https://www.wuft.org/weather/2026-10-09/why-hurricane-isaias-could-trigger-tornadic-supercells-across-northern-florida",
+    "themes": [
+      "NATURAL_DISASTER",
+      "NATURAL_DISASTER_HURRICANE",
+      "CRISISLEX_CRISISLEXREC",
+      "BORDER",
+      "NATURAL_DISASTER_CYCLONE"
+    ],
+    "raw_tone": -3.397341211226,
+    "sentiment_normalized": -0.34,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-19",
+    "date": "20261009090000",
+    "url": "https://www.timesrepublican.com/opinion/columnists/2026/10/empty-nest-12/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_LANDSCAPER",
+      "TAX_WORLDMAMMALS",
+      "TAX_WORLDMAMMALS_DOG",
+      "MANMADE_DISASTER_IMPLIED"
+    ],
+    "raw_tone": -1.1142061281337,
+    "sentiment_normalized": -0.11,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-20",
+    "date": "20261009090000",
+    "url": "https://www.el-balad.com/17056293",
+    "themes": [
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_IRISH",
+      "TAX_WORLDLANGUAGES",
+      "TAX_WORLDLANGUAGES_IRISH",
+      "ECON_STOCKMARKET"
+    ],
+    "raw_tone": 0.191570881226053,
+    "sentiment_normalized": 0.02,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-21",
+    "date": "20261009090000",
+    "url": "https://www.fool.com/investing/2026/10/09/why-i-bought-more-netflix-stock-near-52-week-lows/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_FOOL",
+      "EDUCATION",
+      "TAX_FNCACT_PROFESSOR",
+      "EPU_ECONOMY"
+    ],
+    "raw_tone": 1.92307692307692,
+    "sentiment_normalized": 0.19,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-22",
+    "date": "20261009090000",
+    "url": "https://www.gulfcoastnewsnow.com/article/runners-celebrate-50-years-half-marathon/74086729",
+    "themes": [
+      "WB_2670_JOBS",
+      "WB_1467_EDUCATION_FOR_ALL",
+      "WB_470_EDUCATION",
+      "WB_2131_EMPLOYABILITY_SKILLS_AND_JOBS",
+      "WB_1484_EDUCATION_SKILLS_DEVELOPMENT_AND_LABOR_MARKET"
+    ],
+    "raw_tone": 0.390625,
+    "sentiment_normalized": 0.04,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-23",
+    "date": "20261009090000",
+    "url": "https://weekendpost.co.bw/as-machines-learn-faster-a-workforce-splits-in-two/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_WORKERS",
+      "TAX_FNCACT_BOSSES",
+      "WB_855_LABOR_MARKETS",
+      "WB_697_SOCIAL_PROTECTION_AND_LABOR"
+    ],
+    "raw_tone": -0.856898029134533,
+    "sentiment_normalized": -0.09,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-25",
+    "date": "20261009090000",
+    "url": "https://timesofindia.indiatimes.com/auto/cars/kia-cars-to-get-assured-buyback-value-of-up-to-75-in-3-years-details/articleshow/134822713.cms",
+    "themes": [
+      "NATURAL_DISASTER",
+      "NATURAL_DISASTER_ICE",
+      "TAX_FNCACT",
+      "TAX_FNCACT_DEALER",
+      ""
+    ],
+    "raw_tone": 4.8689138576779,
+    "sentiment_normalized": 0.49,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-26",
+    "date": "20261009090000",
+    "url": "http://www.reflector.com/jail_bookings/259600-alonza-pitt/article_9fc38d64-bfcb-5f4f-a2e0-797741e04aa5.html",
+    "themes": [
+      "SOC_GENERALCRIME",
+      "DRUG_TRADE",
+      "WB_1331_HEALTH_TECHNOLOGIES",
+      "WB_2453_ORGANIZED_CRIME",
+      "WB_1350_PHARMACEUTICALS"
+    ],
+    "raw_tone": -6.66666666666667,
+    "sentiment_normalized": -0.67,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-27",
+    "date": "20261009090000",
+    "url": "https://www.thehindu.com/news/national/kerala/udf-ldf-working-together-to-corner-ruling-bjp-in-thiruvananthapuram-corporation-says-mayor-vv-rajesh/article71563246.ece",
+    "themes": [
+      "DEMOCRACY",
+      "TAX_TERROR_GROUP",
+      "TAX_TERROR_GROUP_DEMOCRATIC_FRONT",
+      "TAX_TERROR_GROUP_UNITED_DEMOCRATIC_FRONT",
+      "TAX_POLITICAL_PARTY"
+    ],
+    "raw_tone": -5.78231292517007,
+    "sentiment_normalized": -0.58,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-28",
+    "date": "20261009090000",
+    "url": "https://www.wtoc.com/2026/10/09/one-person-injured-after-crash-wilmington-island-road/",
+    "themes": [
+      "GENERAL_HEALTH",
+      "MEDICAL",
+      "SOC_POINTSOFINTEREST",
+      "SOC_POINTSOFINTEREST_HOSPITAL",
+      "CRISISLEX_C03_WELLBEING_HEALTH"
+    ],
+    "raw_tone": -2.4390243902439,
+    "sentiment_normalized": -0.24,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-29",
+    "date": "20261009090000",
+    "url": "https://gazettetimes.com/news/community/article_86a5626d-90e3-546a-926b-4c557c3fc4db.html",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_STUDENTS",
+      "TAX_WORLDLANGUAGES",
+      "TAX_WORLDLANGUAGES_OREGON",
+      "EDUCATION"
+    ],
+    "raw_tone": -0.583090379008746,
+    "sentiment_normalized": -0.06,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-30",
+    "date": "20261009090000",
+    "url": "https://www.el-balad.com/17056286",
+    "themes": [
+      "RECRUITMENT",
+      "TAX_FNCACT",
+      "TAX_FNCACT_WORKER",
+      "TAX_FNCACT_SERVANTS",
+      "SOC_INDSERVITUDE"
+    ],
+    "raw_tone": 1.50862068965517,
+    "sentiment_normalized": 0.15,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-31",
+    "date": "20261009090000",
+    "url": "https://www.globaltimes.cn/page/202610/1371889.shtml",
+    "themes": [
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_CHINESE",
+      "TAX_WORLDLANGUAGES",
+      "TAX_WORLDLANGUAGES_CHINESE",
+      "WB_2470_PEACE_OPERATIONS_AND_CONFLICT_MANAGEMENT"
+    ],
+    "raw_tone": -5.80762250453721,
+    "sentiment_normalized": -0.58,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-32",
+    "date": "20261009090000",
+    "url": "https://www.billboard.com/music/music-news/troye-sivan-slayyyter-remi-wolf-new-music-friday-guide-1236353582/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_GUIDE",
+      "TAX_FNCACT_COMPANION",
+      "TAX_WORLDMAMMALS",
+      "TAX_WORLDMAMMALS_WOLF"
+    ],
+    "raw_tone": 0.792602377807133,
+    "sentiment_normalized": 0.08,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-33",
+    "date": "20261009090000",
+    "url": "https://www.wuft.org/2026-10-09/isaias-strengthens-into-category-2-hurricane-on-collision-course-with-the-gulf-coast",
+    "themes": [
+      "NATURAL_DISASTER",
+      "NATURAL_DISASTER_HURRICANE",
+      "CRISISLEX_CRISISLEXREC",
+      ""
+    ],
+    "raw_tone": -6.67793744716822,
+    "sentiment_normalized": -0.67,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-34",
+    "date": "20261009090000",
+    "url": "https://leadership.ng/why-ive-not-created-autonomous-tiv-district-in-nasarawa-governor-sule/",
+    "themes": [
+      "LEADER",
+      "TAX_FNCACT",
+      "TAX_FNCACT_GOVERNOR",
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_TIV"
+    ],
+    "raw_tone": 0.789889415481833,
+    "sentiment_normalized": 0.08,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-35",
+    "date": "20261009090000",
+    "url": "https://www.ipsnews.net/2026/10/nearly-50000-women-and-girls-killed-or-severely-injured-in-gaza-in-three-years-of-war-one-in-21-gazan-women-and-girls/",
+    "themes": [
+      "WB_2433_CONFLICT_AND_VIOLENCE",
+      "WB_2432_FRAGILITY_CONFLICT_AND_VIOLENCE",
+      "EDUCATION",
+      "WB_470_EDUCATION",
+      "AGRICULTURE"
+    ],
+    "raw_tone": -4.93273542600897,
+    "sentiment_normalized": -0.49,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-36",
+    "date": "20261009090000",
+    "url": "https://itbrief.co.nz/story/mastek-wins-staffordshire-council-oracle-cloud-deal",
+    "themes": [
+      "TAX_WORLDMAMMALS",
+      "TAX_WORLDMAMMALS_HUMAN",
+      "UNGP_FORESTS_RIVERS_OCEANS",
+      "WB_841_JUSTICE_SYSTEM_ADMINISTRATION",
+      "WB_696_PUBLIC_SECTOR_MANAGEMENT"
+    ],
+    "raw_tone": 3.13653136531365,
+    "sentiment_normalized": 0.31,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-37",
+    "date": "20261009090000",
+    "url": "https://allafrica.com/stories/202610090236.html",
+    "themes": [
+      "WB_698_TRADE",
+      "GENERAL_GOVERNMENT",
+      "EPU_POLICY",
+      "EPU_POLICY_GOVERNMENT",
+      "EPU_ECONOMY_HISTORIC"
+    ],
+    "raw_tone": 4.95575221238938,
+    "sentiment_normalized": 0.5,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-38",
+    "date": "20261009090000",
+    "url": "https://www.royston-crow.co.uk/news/national/26621442.striking-personal-self-portrait-david-bowie-auction/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_MUSICIAN",
+      "KILL",
+      "CRISISLEX_T03_DEAD",
+      "ARMEDCONFLICT"
+    ],
+    "raw_tone": 2.51177394034537,
+    "sentiment_normalized": 0.25,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-42",
+    "date": "20261009090000",
+    "url": "https://www.ludlowadvertiser.co.uk/news/national/26621247.airtel-money-kicks-off-gbp5-3bn-ipo-biggest-london-float-five-years/",
+    "themes": [
+      "TAX_ECON_PRICE",
+      "WB_698_TRADE",
+      "ECON_STOCKMARKET",
+      "ECON_IPO",
+      "TAX_ETHNICITY"
+    ],
+    "raw_tone": 2.33281493001555,
+    "sentiment_normalized": 0.23,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-44",
+    "date": "20261009090000",
+    "url": "https://www.wuft.org/2026-10-09/pentagon-says-the-firing-squad-execution-of-fort-hood-shooter-will-be-livestreamed",
+    "themes": [
+      "CRISISLEX_C07_SAFETY",
+      "TAX_FNCACT",
+      "TAX_FNCACT_SECRETARY",
+      "MILITARY",
+      "TRIAL"
+    ],
+    "raw_tone": -3.87596899224806,
+    "sentiment_normalized": -0.39,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-45",
+    "date": "20261009090000",
+    "url": "https://www.standard.net.au/story/9365906/nobel-peace-prize-to-be-awarded-in-norway/",
+    "themes": [
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_VENEZUELAN",
+      "TAX_FNCACT",
+      "TAX_FNCACT_LEADER",
+      "TAX_WORLDLANGUAGES"
+    ],
+    "raw_tone": 8.16,
+    "sentiment_normalized": 0.82,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-46",
+    "date": "20261009090000",
+    "url": "https://www.finanzen.ch/nachrichten/aktien/asian-shares-rise-as-oil-prices-and-bond-yields-dip-1036611804",
+    "themes": [
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_ASIAN",
+      "ECON_STOCKMARKET",
+      "WB_698_TRADE",
+      "GEN_HOLIDAY"
+    ],
+    "raw_tone": -2.9038112522686,
+    "sentiment_normalized": -0.29,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-47",
+    "date": "20261009090000",
+    "url": "https://www.radiocayman.gov.ky/community-events/delegation-meeting-management-2",
+    "themes": [
+      "EPU_ECONOMY_HISTORIC",
+      "LEADER",
+      "TAX_FNCACT",
+      "TAX_FNCACT_GOVERNOR",
+      ""
+    ],
+    "raw_tone": 0.0,
+    "sentiment_normalized": 0.0,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-48",
+    "date": "20261009090000",
+    "url": "https://www.ibtimes.co.uk/kourtney-kardashian-explains-why-she-called-jennifer-lawrence-f-that-bitch-after-annoying-1824625",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_ACTRESSES",
+      "MEDIA_MSM",
+      ""
+    ],
+    "raw_tone": -2.42537313432836,
+    "sentiment_normalized": -0.24,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-49",
+    "date": "20261009090000",
+    "url": "https://wham1180.iheart.com/content/2026-10-09-el-sayed-rogers-clash-in-michigan-senate-debate/",
+    "themes": [
+      "DEMOCRACY",
+      "TAX_FNCACT",
+      "TAX_FNCACT_NOMINEE",
+      "TAX_POLITICAL_PARTY",
+      "TAX_POLITICAL_PARTY_REPUBLICAN"
+    ],
+    "raw_tone": -3.91304347826087,
+    "sentiment_normalized": -0.39,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-50",
+    "date": "20261009090000",
+    "url": "https://laist.com/events/laist-at-the-moth-storyslam-frenemies",
+    "themes": [
+      "TAX_WORLDINSECTS",
+      "TAX_WORLDINSECTS_MOTH",
+      "TAX_AGRICULHARMINSECTS",
+      "TAX_AGRICULHARMINSECTS_MOTH",
+      ""
+    ],
+    "raw_tone": 0.0,
+    "sentiment_normalized": 0.0,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-51",
+    "date": "20261009090000",
+    "url": "https://canadianinquirer.net/2026/10/09/tony-ortega-brings-filipino-community-roots-to-richmond-council-race/",
+    "themes": [
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_CANADIAN",
+      "UNGP_FORESTS_RIVERS_OCEANS",
+      "EPU_POLICY",
+      "EPU_POLICY_POLITICAL"
+    ],
+    "raw_tone": 0.332225913621263,
+    "sentiment_normalized": 0.03,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-52",
+    "date": "20261009090000",
+    "url": "https://www.falmouthpacket.co.uk/news/national/26621124.10-dead-prison-riot-mexicos-sinaloa-state/",
+    "themes": [
+      "WB_2433_CONFLICT_AND_VIOLENCE",
+      "WB_2432_FRAGILITY_CONFLICT_AND_VIOLENCE",
+      "UNGP_CRIME_VIOLENCE",
+      "WB_135_TRANSPORT",
+      "WB_1803_TRANSPORT_INFRASTRUCTURE"
+    ],
+    "raw_tone": -12.9251700680272,
+    "sentiment_normalized": -1.0,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-53",
+    "date": "20261009090000",
+    "url": "https://wham1180.iheart.com/content/2026-10-09-doj-sues-denver-over-law-enforcement-mask-ban/",
+    "themes": [
+      "WB_696_PUBLIC_SECTOR_MANAGEMENT",
+      "WB_840_JUSTICE",
+      "TRIAL",
+      "LEADER",
+      "TAX_FNCACT"
+    ],
+    "raw_tone": -8.42490842490842,
+    "sentiment_normalized": -0.84,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-54",
+    "date": "20261009090000",
+    "url": "https://www.themarketsdaily.com/2026/10/09/insider-buying-tourmaline-oil-tsetou-insider-buys-c310300-00-in-stock.html",
+    "themes": [
+      "ENV_OIL",
+      "TAX_FNCACT",
+      "TAX_FNCACT_INSIDER",
+      "ECON_STOCKMARKET",
+      "TAX_ECON_PRICE"
+    ],
+    "raw_tone": 2.20417633410673,
+    "sentiment_normalized": 0.22,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-55",
+    "date": "20261009090000",
+    "url": "https://www.thediplomat.ro/2026/10/09/filip-company-assists-brd-and-raiffeisen-bank-with-the-30-million-euros-bond-issue-by-the-municipality-of-alba-iulia/",
+    "themes": [
+      "LEGISLATION",
+      "EPU_POLICY",
+      "EPU_POLICY_LAW",
+      "WB_845_LEGAL_AND_REGULATORY_FRAMEWORK",
+      "WB_696_PUBLIC_SECTOR_MANAGEMENT"
+    ],
+    "raw_tone": 3.37837837837838,
+    "sentiment_normalized": 0.34,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-56",
+    "date": "20261009090000",
+    "url": "https://www.standard.net.au/story/9365879/teacher-allegedly-filmed-hundreds-of-kids-using-toilets/",
+    "themes": [
+      "EDUCATION",
+      "TAX_FNCACT",
+      "TAX_FNCACT_TEACHER",
+      "TRIAL",
+      "TAX_FNCACT_CHILDREN"
+    ],
+    "raw_tone": -6.82730923694779,
+    "sentiment_normalized": -0.68,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-57",
+    "date": "20261009090000",
+    "url": "https://www.mohavedailynews.com/eedition/nationaledition/page-a1/page_3e1cc59c-e0f9-5545-bf1c-e07166c4f619.html",
+    "themes": [
+      "TAX_WORLDMAMMALS",
+      "TAX_WORLDMAMMALS_MOUSE",
+      ""
+    ],
+    "raw_tone": 0.0,
+    "sentiment_normalized": 0.0,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-58",
+    "date": "20261009090000",
+    "url": "https://english.news.cn/20261009/3388a84ba67e4d908bbac964c2700677/c.html",
+    "themes": [
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_UYGUR",
+      "TAX_WORLDLANGUAGES",
+      "TAX_WORLDLANGUAGES_UYGUR",
+      "WB_1979_NATURAL_RESOURCE_MANAGEMENT"
+    ],
+    "raw_tone": 0.548446069469835,
+    "sentiment_normalized": 0.05,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-59",
+    "date": "20261009090000",
+    "url": "https://www.scoop.co.nz/stories/AK2610/S00304/serious-crash-stratford.htm",
+    "themes": [
+      "SECURITY_SERVICES",
+      "TAX_FNCACT",
+      "TAX_FNCACT_POLICE",
+      "CRISISLEX_C07_SAFETY",
+      "UNGP_FORESTS_RIVERS_OCEANS"
+    ],
+    "raw_tone": -4.1958041958042,
+    "sentiment_normalized": -0.42,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-60",
+    "date": "20261009090000",
+    "url": "https://www.hawaiinewsnow.com/2026/10/09/papahnaumokukea-cleanup-removes-47000-pounds-marine-debris/",
+    "themes": [
+      "TAX_WORLDBIRDS",
+      "TAX_WORLDBIRDS_KEA",
+      "WB_1983_HEALTHY_OCEANS",
+      "WB_1984_OCEAN_POLLUTION",
+      "WB_1979_NATURAL_RESOURCE_MANAGEMENT"
+    ],
+    "raw_tone": -2.51798561151079,
+    "sentiment_normalized": -0.25,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-61",
+    "date": "20261009090000",
+    "url": "https://nato.int/en/news-and-events/events/media-advisories/2026/10/09/nato-secretary-general-to-visit-estonia",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_SECRETARY",
+      "TAX_FNCACT_SECRETARY_GENERAL",
+      "LEADER",
+      "TAX_FNCACT_PRESIDENT"
+    ],
+    "raw_tone": 0.540540540540541,
+    "sentiment_normalized": 0.05,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-62",
+    "date": "20261009090000",
+    "url": "https://www.thedailystar.net/slow-reads/big-picture/news/bengali-muslims-and-the-ghosts-indias-citizenship-politics-4294026",
+    "themes": [
+      "EPU_CATS_MIGRATION_FEAR_MIGRATION",
+      "USPEC_POLITICS_GENERAL1",
+      "MANMADE_DISASTER_IMPLIED",
+      "GENERAL_GOVERNMENT",
+      "TAX_FNCACT"
+    ],
+    "raw_tone": -7.15854194115064,
+    "sentiment_normalized": -0.72,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-63",
+    "date": "20261009090000",
+    "url": "https://www.ludlowadvertiser.co.uk/news/national/26621442.striking-personal-self-portrait-david-bowie-auction/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_MUSICIAN",
+      "KILL",
+      "CRISISLEX_T03_DEAD",
+      "ARMEDCONFLICT"
+    ],
+    "raw_tone": 2.51177394034537,
+    "sentiment_normalized": 0.25,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-64",
+    "date": "20261009090000",
+    "url": "https://www.watfordobserver.co.uk/news/national/26621442.striking-personal-self-portrait-david-bowie-auction/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_MUSICIAN",
+      "KILL",
+      "CRISISLEX_T03_DEAD",
+      "ARMEDCONFLICT"
+    ],
+    "raw_tone": 2.51177394034537,
+    "sentiment_normalized": 0.25,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-65",
+    "date": "20261009090000",
+    "url": "https://www.sunjournal.com/2026/10/09/matt-dunlap-understands-how-we-in-maine-feel-letter/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_CANDIDATE",
+      "GENERAL_GOVERNMENT",
+      "USPEC_POLITICS_GENERAL1",
+      "EPU_POLICY"
+    ],
+    "raw_tone": -0.858369098712446,
+    "sentiment_normalized": -0.09,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-66",
+    "date": "20261009090000",
+    "url": "https://www.krbe.com/2026/10/09/rihanna-hints-at-having-at-least-170-unreleased-songs-in-her-music-vault/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_SINGER",
+      "TAX_WEAPONS",
+      "TAX_WEAPONS_BOMB",
+      "EPU_CATS_MIGRATION_FEAR_FEAR"
+    ],
+    "raw_tone": 4.76190476190476,
+    "sentiment_normalized": 0.48,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-68",
+    "date": "20261009090000",
+    "url": "https://www.southernstar.ie/news/watch-close-encounter-with-two-orca-whales-just-metres-from-boat-4377448",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_MAN",
+      "TAX_WORLDMAMMALS",
+      "TAX_WORLDMAMMALS_WHALES",
+      "MARITIME_INCIDENT"
+    ],
+    "raw_tone": 1.55763239875389,
+    "sentiment_normalized": 0.16,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-69",
+    "date": "20261009090000",
+    "url": "https://www.boredpanda.com/stupid-reasons-tsa-stopped-people-stories/?cexp_id=162727&_f=homepage_featured&cexp_var=15",
+    "themes": [
+      "SOC_POINTSOFINTEREST",
+      "SOC_POINTSOFINTEREST_AIRPORT",
+      "WB_135_TRANSPORT",
+      "WB_1803_TRANSPORT_INFRASTRUCTURE",
+      "WB_1804_AIRPORTS"
+    ],
+    "raw_tone": -3.30578512396694,
+    "sentiment_normalized": -0.33,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-70",
+    "date": "20261009090000",
+    "url": "https://leadership.ng/just-in-motorist-escapes-death-as-train-hits-car-at-lagos-railway-crossing/",
+    "themes": [
+      "MANMADE_DISASTER_IMPLIED",
+      "PUBLIC_TRANSPORT",
+      "WB_135_TRANSPORT",
+      "WB_1803_TRANSPORT_INFRASTRUCTURE",
+      "WB_166_RAILWAYS"
+    ],
+    "raw_tone": -5.24590163934426,
+    "sentiment_normalized": -0.52,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-71",
+    "date": "20261009090000",
+    "url": "https://monocle.com/affairs/urbanism/how-chilliwack-in-canada-is-getting-a-second-life-from-three-brothers/",
+    "themes": [
+      "WB_168_ROADS_AND_HIGHWAYS",
+      "WB_135_TRANSPORT",
+      "WB_1809_HIGHWAYS",
+      "WB_1803_TRANSPORT_INFRASTRUCTURE",
+      "URBAN"
+    ],
+    "raw_tone": 1.22950819672131,
+    "sentiment_normalized": 0.12,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-72",
+    "date": "20261009090000",
+    "url": "https://www.thedailystar.net/business/economy/news/promotion-no-thanks-4293986",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_EXECUTIVE",
+      "TAX_FNCACT_BOSS",
+      "TAX_FNCACT_EMPLOYEE",
+      "EPU_ECONOMY_HISTORIC"
+    ],
+    "raw_tone": 1.82724252491694,
+    "sentiment_normalized": 0.18,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-73",
+    "date": "20261009090000",
+    "url": "https://www.thedailystar.net/business/organisation-news/news/mahbubor-made-chairman-sbac-bank-investment-4293981",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_CHAIRMAN",
+      "ELECTION",
+      "TAX_FNCACT_CHIEF",
+      "TAX_FNCACT_EXECUTIVE"
+    ],
+    "raw_tone": 1.38888888888889,
+    "sentiment_normalized": 0.14,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-74",
+    "date": "20261009090000",
+    "url": "https://www.fool.com/investing/2026/10/09/why-do-interactive-brokers-customers-hold-so-much-more-money-than-robinhood-s/",
+    "themes": [
+      "CRISISLEX_T11_UPDATESSYMPATHY",
+      "TAX_FNCACT",
+      "TAX_FNCACT_BROKER",
+      "TAX_FNCACT_FOOL",
+      "WB_698_TRADE"
+    ],
+    "raw_tone": 0.538793103448276,
+    "sentiment_normalized": 0.05,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-75",
+    "date": "20261009090000",
+    "url": "https://www.falmouthpacket.co.uk/leisure/bestofcornwall/26620098.seven-metre-sun-artwork-shine-eden-project/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_ARTIST",
+      "CRISISLEX_C04_LOGISTICS_TRANSPORT",
+      "ENV_SOLAR",
+      "TAX_FNCACT_PRODUCER"
+    ],
+    "raw_tone": 5.40540540540541,
+    "sentiment_normalized": 0.54,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-77",
+    "date": "20261009090000",
+    "url": "https://cyprusnews.eu/carierista/columbia-hotels-and-resorts-ltd-pastry-cook-lemesos-columbia-hotels-and-resorts-ltd/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_COOK",
+      "TAX_FNCACT_PASTRY_COOK",
+      "WB_1458_HEALTH_PROMOTION_AND_DISEASE_PREVENTION",
+      "WB_1462_WATER_SANITATION_AND_HYGIENE"
+    ],
+    "raw_tone": 10.0,
+    "sentiment_normalized": 1.0,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-78",
+    "date": "20261009090000",
+    "url": "https://www.thehindu.com/opinion/blogs/blog-hypertext/response-to-comments-on-the-aakash-op-ed/article56827779.ece",
+    "themes": [
+      "MEDIA_SOCIAL",
+      "TAX_RELIGION",
+      "TAX_RELIGION_HINDU",
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_HINDU"
+    ],
+    "raw_tone": 0.140056022408964,
+    "sentiment_normalized": 0.01,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-79",
+    "date": "20261009090000",
+    "url": "https://indiaeducationdiary.in/prof-qamar-ul-huda-fareedi-honoured-with-awadh-ratan-award-for-literary-services/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_CHAIRMAN",
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_URDU",
+      "TAX_RELIGION"
+    ],
+    "raw_tone": 4.69483568075117,
+    "sentiment_normalized": 0.47,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-80",
+    "date": "20261009090000",
+    "url": "https://whoradio.iheart.com/content/2026-10-09-doj-sues-denver-over-law-enforcement-mask-ban/",
+    "themes": [
+      "WB_696_PUBLIC_SECTOR_MANAGEMENT",
+      "WB_840_JUSTICE",
+      "TRIAL",
+      "LEADER",
+      "TAX_FNCACT"
+    ],
+    "raw_tone": -8.42490842490842,
+    "sentiment_normalized": -0.84,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-81",
+    "date": "20261009090000",
+    "url": "https://www.constructionenquirer.com/2026/10/09/german-investor-pledges-1bn-for-uk-affordable-homes/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_INVESTOR",
+      "LEADER",
+      "TAX_FNCACT_MAYORS",
+      "MEDIA_MSM"
+    ],
+    "raw_tone": 1.8018018018018,
+    "sentiment_normalized": 0.18,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-82",
+    "date": "20261009090000",
+    "url": "https://247wallst.com/cards/europe-is-buying-everything-at-the-open-london-added-125-po-ftse-market-bell-01m4fsadghzwv4zhftcz420rct",
+    "themes": [
+      "TAX_ECON_PRICE",
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_CHOP",
+      ""
+    ],
+    "raw_tone": 0.0,
+    "sentiment_normalized": 0.0,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-83",
+    "date": "20261009090000",
+    "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-dementia-partnership-cure-b3063687.html",
+    "themes": [
+      "TAX_DISEASE",
+      "TAX_DISEASE_DEMENTIA",
+      "TAX_FNCACT",
+      "TAX_FNCACT_FATHER",
+      "KILL"
+    ],
+    "raw_tone": 1.25698324022346,
+    "sentiment_normalized": 0.13,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-84",
+    "date": "20261009090000",
+    "url": "https://www.kasu.org/weather-environment-infrastructure/2026-10-09/isaias-threatens-gulf-coast-as-climate-change-makes-hurricanes-more-intense",
+    "themes": [
+      "NATURAL_DISASTER",
+      "NATURAL_DISASTER_HURRICANE",
+      "CRISISLEX_CRISISLEXREC",
+      "UNGP_FORESTS_RIVERS_OCEANS",
+      "ENV_CLIMATECHANGE"
+    ],
+    "raw_tone": -8.10810810810811,
+    "sentiment_normalized": -0.81,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-85",
+    "date": "20261009090000",
+    "url": "https://timesofindia.indiatimes.com/science/discovery/nasa-struggled-to-find-a-safe-sampling-site-on-asteroid-bennu-queen-guitarist-brian-may-used-his-little-known-3d-imaging-skills-to-reveal-its-treacherous-terrain/articleshow/134815274.cms",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_QUEEN",
+      ""
+    ],
+    "raw_tone": -0.0793021411578114,
+    "sentiment_normalized": -0.01,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-86",
+    "date": "20261009090000",
+    "url": "https://www.irvinetimes.com/news/national/26621096.wink-smile---shark-attack-survivor-reveals-details-mauling/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_FIREFIGHTER",
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_AUSTRALIAN",
+      "WB_678_DIGITAL_GOVERNMENT"
+    ],
+    "raw_tone": -3.72881355932203,
+    "sentiment_normalized": -0.37,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-87",
+    "date": "20261009090000",
+    "url": "https://www.hamhigh.co.uk/news/national/26621038.nigel-farage-declines-rule-reform-tories-post-election-pact/",
+    "themes": [
+      "ELECTION",
+      "USPEC_POLITICS_GENERAL1",
+      "TAX_POLITICAL_PARTY",
+      "TAX_POLITICAL_PARTY_CONSERVATIVE_PARTY",
+      "EPU_POLICY"
+    ],
+    "raw_tone": -2.52873563218391,
+    "sentiment_normalized": -0.25,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-88",
+    "date": "20261009090000",
+    "url": "https://en.tempo.co/read/2121237/isdb-approves-us2-56bn-development-aid-for-indonesia",
+    "themes": [
+      "TAX_RELIGION",
+      "TAX_RELIGION_ISLAMIC",
+      "ECON_DEVELOPMENTORGS",
+      "ECON_DEVELOPMENTORGS_ISLAMIC_DEVELOPMENT_BANK",
+      "SLFID_ECONOMIC_DEVELOPMENTAID"
+    ],
+    "raw_tone": 8.3743842364532,
+    "sentiment_normalized": 0.84,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-89",
+    "date": "20261009090000",
+    "url": "https://www.dailymail.com/buyline/beauty/article-16130461/I-tried-new-Skin-Rocks-support-mask-promises-soothe-irritated-skin-hit-autumn-review.html",
+    "themes": [
+      "MEDIA_MSM",
+      "TAX_DISEASE",
+      "TAX_DISEASE_HYPERPIGMENTATION",
+      "TAX_DISEASE_DEHYDRATION",
+      "GENERAL_GOVERNMENT"
+    ],
+    "raw_tone": 3.2967032967033,
+    "sentiment_normalized": 0.33,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-90",
+    "date": "20261009090000",
+    "url": "https://www.explosion.com/220428/claude-now-builds-live-dashboards-and-animations-from-your-data/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_ASSISTANT",
+      "UNGP_FORESTS_RIVERS_OCEANS",
+      "PROTEST",
+      "EPU_ECONOMY_HISTORIC"
+    ],
+    "raw_tone": 1.80451127819549,
+    "sentiment_normalized": 0.18,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-91",
+    "date": "20261009090000",
+    "url": "https://www.timesrepublican.com/opinion/columnists/2026/10/the-prosecutors-dilemma/",
+    "themes": [
+      "GENERAL_GOVERNMENT",
+      "EPU_POLICY",
+      "EPU_POLICY_GOVERNMENT",
+      "TRIAL",
+      "TAX_FNCACT"
+    ],
+    "raw_tone": -10.2204408817635,
+    "sentiment_normalized": -1.0,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-92",
+    "date": "20261009090000",
+    "url": "https://timesofindia.indiatimes.com/life-style/travel/destinations/we-expected-chaos-in-india-norwegian-mayor-and-his-travel-companion-who-travelled-43000-km-in-a-tuk-tuk-share-an-unseen-face-of-india/articleshow/134822954.cms",
+    "themes": [
+      "TAX_WORLDLANGUAGES",
+      "TAX_WORLDLANGUAGES_NORWEGIAN",
+      "LEADER",
+      "TAX_FNCACT",
+      "TAX_FNCACT_MAYOR"
+    ],
+    "raw_tone": -1.09170305676856,
+    "sentiment_normalized": -0.11,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-93",
+    "date": "20261009090000",
+    "url": "https://allafrica.com/stories/202610090144.html",
+    "themes": [
+      "KILL",
+      "TAX_FNCACT",
+      "TAX_FNCACT_BUSINESSMAN",
+      "TAX_WORLDLANGUAGES",
+      "TAX_WORLDLANGUAGES_KWAME"
+    ],
+    "raw_tone": -1.81818181818182,
+    "sentiment_normalized": -0.18,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-94",
+    "date": "20261009090000",
+    "url": "http://www.reflector.com/news/national/nobel-peace-prize-to-be-awarded-in-norway/article_1b637f44-a229-5e52-9275-9a7e9dcc9008.html",
+    "themes": [
+      "MANMADE_DISASTER_IMPLIED",
+      "CRISISLEX_CRISISLEXREC",
+      "CRISISLEX_O02_RESPONSEAGENCIESATCRISIS",
+      "TAX_FNCACT",
+      "TAX_FNCACT_CHILDREN"
+    ],
+    "raw_tone": 6.14617940199335,
+    "sentiment_normalized": 0.61,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-95",
+    "date": "20261009090000",
+    "url": "http://www.reflector.com/news/national/el-ni-os-storm-killer-winds-and-climates-warming-waters-in-fight-over-future-of/article_b7cbf427-bdc7-5457-930d-e1ea8070c966.html",
+    "themes": [
+      "KILL",
+      "WB_137_WATER",
+      "NATURAL_DISASTER",
+      "NATURAL_DISASTER_HURRICANE",
+      "CRISISLEX_CRISISLEXREC"
+    ],
+    "raw_tone": -3.95209580838323,
+    "sentiment_normalized": -0.4,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-96",
+    "date": "20261009090000",
+    "url": "https://www.odnako.org/saudi-arabia-in-the-sights-of-the-houthis-riyadh-airport-hit-yemen-reconquers-the-bab-el-mandeb-strait/",
+    "themes": [
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_HOUTHIS",
+      "SOC_POINTSOFINTEREST",
+      "SOC_POINTSOFINTEREST_AIRPORT",
+      "WB_135_TRANSPORT"
+    ],
+    "raw_tone": -2.48091603053435,
+    "sentiment_normalized": -0.25,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-97",
+    "date": "20261009090000",
+    "url": "https://www.falmouthpacket.co.uk/news/national/uk-today/26621110.itv-gmb-warns-us-hurricane-bring-uk-storms-next-week/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_METEOROLOGIST",
+      "NATURAL_DISASTER",
+      "NATURAL_DISASTER_SEVERE_WEATHER",
+      "UNREST_BELLIGERENT"
+    ],
+    "raw_tone": -4.98812351543943,
+    "sentiment_normalized": -0.5,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-98",
+    "date": "20261009090000",
+    "url": "https://thesun.ng/troops-repel-terrorists-on-100-motorcycles-recover-weapons-ammunition-in-kebbi/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_TROOPS",
+      "CRISISLEX_CRISISLEXREC",
+      "TERROR",
+      "ARMEDCONFLICT"
+    ],
+    "raw_tone": -6.78733031674208,
+    "sentiment_normalized": -0.68,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-99",
+    "date": "20261009090000",
+    "url": "https://www.pensacolasjet.com/2026/10/09/rihanna-hints-at-having-at-least-170-unreleased-songs-in-her-music-vault/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_SINGER",
+      "TAX_WEAPONS",
+      "TAX_WEAPONS_BOMB",
+      "EPU_CATS_MIGRATION_FEAR_FEAR"
+    ],
+    "raw_tone": 4.76190476190476,
+    "sentiment_normalized": 0.48,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-100",
+    "date": "20261009090000",
+    "url": "https://www.independent.co.uk/news/uk/crime/darlington-nuwertey-oasis-academy-silvertown-snaresbrook-b3063788.html",
+    "themes": [
+      "SCIENCE",
+      "EDUCATION",
+      "TAX_FNCACT",
+      "TAX_FNCACT_TEACHER",
+      "TRIAL"
+    ],
+    "raw_tone": -2.28013029315961,
+    "sentiment_normalized": -0.23,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-101",
+    "date": "20261009090000",
+    "url": "https://harringayonline.com/forum/topics/is-your-dusty-sourdough-worth-a-1-3-million-knuckle?commentId=844301%3AComment%3A1673620",
+    "themes": [
+      "MANMADE_DISASTER_IMPLIED",
+      "TAX_FNCACT",
+      "TAX_FNCACT_DEVELOPER",
+      "TAX_WORLDMAMMALS",
+      "TAX_WORLDMAMMALS_BEARS"
+    ],
+    "raw_tone": -0.883002207505519,
+    "sentiment_normalized": -0.09,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-103",
+    "date": "20261009090000",
+    "url": "https://www.irvinetimes.com/news/26619932.minister-visits-chap-hear-advice-services/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_STAFF_MEMBERS",
+      "AFFECT",
+      "POVERTY",
+      "PROTEST"
+    ],
+    "raw_tone": 2.56959314775161,
+    "sentiment_normalized": 0.26,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-105",
+    "date": "20261009090000",
+    "url": "https://www.foxbusiness.com/retail/pepsico-raising-prices-doritos-ruffles-sunchips-some-sodas-after-recent-cuts",
+    "themes": [
+      "TAX_ECON_PRICE",
+      "AGRICULTURE",
+      "WB_2433_CONFLICT_AND_VIOLENCE",
+      "WB_2432_FRAGILITY_CONFLICT_AND_VIOLENCE",
+      "TAX_FNCACT"
+    ],
+    "raw_tone": -1.27388535031847,
+    "sentiment_normalized": -0.13,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-106",
+    "date": "20261009090000",
+    "url": "https://www.wuft.org/2026-10-09/newsbrief-hurricane-isaias-ukraine-war-latest-politics-of-iran-war",
+    "themes": [
+      "TAX_ETHNICITY",
+      "TAX_ETHNICITY_RUSSIAN",
+      "TAX_WORLDLANGUAGES",
+      "TAX_WORLDLANGUAGES_RUSSIAN",
+      "ARMEDCONFLICT"
+    ],
+    "raw_tone": -8.69565217391304,
+    "sentiment_normalized": -0.87,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-107",
+    "date": "20261009090000",
+    "url": "https://pasoroblesdailynews.com/caltrans-urges-drivers-to-slow-down-in-work-zones-after-six-worker-deaths/224630/",
+    "themes": [
+      "TAX_FNCACT",
+      "TAX_FNCACT_DRIVERS",
+      "TAX_FNCACT_WORKER",
+      "KILL",
+      "TAX_FNCACT_CONTRACTOR"
+    ],
+    "raw_tone": -0.483091787439613,
+    "sentiment_normalized": -0.05,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-108",
+    "date": "20261009090000",
+    "url": "https://www.irvinetimes.com/news/26618573.google-maps-adds-live-petrol-prices-help-drivers-save-40/",
+    "themes": [
+      "TAX_ECON_PRICE",
+      "CRISISLEX_C04_LOGISTICS_TRANSPORT",
+      "GENERAL_GOVERNMENT",
+      "EPU_POLICY",
+      "EPU_POLICY_GOVERNMENT"
+    ],
+    "raw_tone": 0.72639225181598,
+    "sentiment_normalized": 0.07,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-109",
+    "date": "20261009090000",
+    "url": "https://www.insideindianabusiness.com/articles/hallador-inks-700m-agreements-for-energy-generated-at-merom-station",
+    "themes": [
+      "EPU_POLICY",
+      "EPU_POLICY_REGULATORY",
+      "EPU_ECONOMY_HISTORIC",
+      "TAX_FNCACT",
+      "TAX_FNCACT_CEO"
+    ],
+    "raw_tone": 3.92561983471074,
+    "sentiment_normalized": 0.39,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  },
+  {
+    "gdelt_id": "20261009090000-110",
+    "date": "20261009090000",
+    "url": "https://www.power1057.com/2026/10/09/charlie-puth-steps-in-as-elementary-school-substitute-to-write-an-original-song/",
+    "themes": [
+      "EDUCATION",
+      "MANMADE_DISASTER_IMPLIED",
+      "SOC_POINTSOFINTEREST",
+      "SOC_POINTSOFINTEREST_SCHOOL",
+      "TAX_FNCACT"
+    ],
+    "raw_tone": 3.37078651685393,
+    "sentiment_normalized": 0.34,
+    "source": "GDELT 2.0 Global Knowledge Graph"
+  }
+]
